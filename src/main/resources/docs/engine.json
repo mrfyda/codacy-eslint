@@ -1,0 +1,47 @@
+{
+  "id": "cf05f3aa-fd23-4586-8cce-5368917ec3e5",
+  "name": "ESLint",
+  "slug": "eslint",
+  "description": "ESLint is an open source project originally created by Nicholas C. Zakas in June 2013. Its goal is to provide a pluggable linting utility for JavaScript.",
+  "maintainer": {
+    "name": "João Machado",
+    "email": "princesa@codacy.com"
+  },
+  "languages": [
+    "Javascript"
+  ],
+  "channels": {
+    "stable": {
+      "name": "stable",
+      "version": "stable"
+    },
+    "all": [
+      {
+        "name": "dev",
+        "version": "dev"
+      },
+      {
+        "name": "eslint-1",
+        "version": "eslint-1"
+      },
+      {
+        "name": "eslint-2",
+        "version": "eslint-2"
+      },
+      {
+        "name": "eslint-3",
+        "version": "eslint-3"
+      },
+      {
+        "name": "latest",
+        "version": "latest"
+      }
+    ]
+  },
+  "documentationUrl": "http://eslint.org/docs/rules/",
+  "sourceCodeUrl": "https://github.com/codacy/codacy-eslint",
+  "configFileNames": [".eslintrc.js", ".eslintrc.yaml", ".eslintrc.yml", ".eslintrc.json", ".eslintrc"],
+  "hasUIConfiguration": true,
+  "needsPatternsToRun": true
+}
+
